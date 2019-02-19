@@ -4,7 +4,7 @@ def reformat_languages(languages)
 
   languagues.each do |k,v|
     language_hash.each do |x, y|
-      attributes.each do |key, value|
+      y.each do |key, value|
       if x == :javascript
         new_hash[x] = {
           :type => value,
