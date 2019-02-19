@@ -11,7 +11,7 @@ def reformat_languages(languages)
           :style => [:oo, :functional]
         }
       else
-        new_hash[language] = {
+        new_hash[x] = {
           :type => value,
           :style => [k]
         }
