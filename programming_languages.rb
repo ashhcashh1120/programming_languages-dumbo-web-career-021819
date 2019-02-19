@@ -6,7 +6,7 @@ def reformat_languages(languages)
     v.each do |x, y|
       if new_hash.has_key?(x)
         new_hash[x][:style] << style
-      else 
+      else
         new_hash[x] = type
         new_hash[x][:style] = style
       end
