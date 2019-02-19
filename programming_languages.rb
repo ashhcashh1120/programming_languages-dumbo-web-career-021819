@@ -5,7 +5,7 @@ def reformat_languages(languages)
    languages.each do |x, y|
     y.each do |k, v|
       if new_hash.has_key?(k)
-        new_hash[k][:stylr] << x
+        new_hash[k][:style] << x
       else
         new_hash[k] = v
         new_hash[k][:style] = [x]
