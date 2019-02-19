@@ -2,7 +2,7 @@ require 'pry'
 def reformat_languages(languages)
   new_hash = {}
 
-  languagues.each do |k,v|
+  languages.each do |k,v|
     v.each do |x, y|
       y.each do |key, value|
       if x == :javascript
